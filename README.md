@@ -139,5 +139,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 💡 About
 
 This project demonstrates the power of **computer vision and deep learning** for real-world safety applications. It showcases practical experience with **TensorFlow, Keras, and OpenCV**, as well as deploying models for **real-time live video analysis**.
-
-```
