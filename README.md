@@ -1,11 +1,21 @@
-# Real-Time Fire Detector
+# Real-Time Fire Detector 🔥
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![TensorFlow](https://img.shields.io/badge/tensorflow-2.12+-orange)
 ![OpenCV](https://img.shields.io/badge/opencv-4.12-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-A real-time fire detection system using a Convolutional Neural Network (CNN) trained on fire and non-fire images. Detects fire instantly from live camera feed, triggers an alarm, and logs fire events automatically.
+A real-time fire detection system using **Convolutional Neural Networks (CNNs)**. The system detects fire instantly from live camera feeds, triggers alerts, and logs fire events automatically.
+
+---
+
+## 🚀 Key Features
+
+- **Real-Time Detection**: Detects fire instantly from webcam or IP camera feeds.  
+- **Cross-Platform Support**: Works with laptop webcams and Android phone cameras.  
+- **Event Logging**: Automatically logs fire detection events in `fire_alerts.log`.  
+- **Audio Alerts**: Triggers an audible alarm when fire is detected.  
+- **Lightweight Model**: Trained CNN model optimized for fast inference.
 
 ---
 
@@ -21,7 +31,7 @@ RealTime-Fire-Detector/
 ├── notebooks/
 │   └── train_fire_model.ipynb
 ├── fire_detection.py          # Real-time detection code
-├── requirements.txt
+├── requirements.txt           # Python dependencies
 ├── README.md
 └── LICENSE
 
@@ -32,33 +42,32 @@ RealTime-Fire-Detector/
 ## 🎥 Demo
 
 ![Fire Detection Demo](images/demo.gif)  
-*Replace with your own GIF or screenshot of detection in action.*
-
-- Works with a laptop webcam or an Android phone IP camera.  
-- Triggers an audible alert when fire is detected.  
-- Logs events in `fire_alerts.log`.
+*Replace this with your own GIF or screenshot of the detection in action.*
 
 ---
 
-## 🛠️ Requirements
+## 🛠️ Installation & Requirements
 
-- Python 3.10+  
-- TensorFlow >= 2.12.0  
-- Keras >= 2.12.0  
-- OpenCV >= 4.12.0  
-- NumPy >= 1.26.0  
-- Matplotlib >= 3.8.0  
-- scikit-learn >= 1.3.0  
-- Jupyter >= 1.0.0  
-- ipykernel >= 6.30.0  
+**Python 3.10+** is required along with the following packages:
 
-Install dependencies:
+```text
+tensorflow>=2.12.0
+keras>=2.12.0
+opencv-python
+numpy
+matplotlib
+scikit-learn
+jupyter
+ipykernel
+````
+
+### Install dependencies via pip:
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
-Or with Conda:
+### Or with Conda:
 
 ```bash
 conda create -n ds_env python=3.10
@@ -68,17 +77,17 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## 🚦 How to Use
 
-### **1. Laptop Webcam**
+### 1️⃣ Laptop Webcam
 
 ```bash
 python fire_detection.py
 ```
 
-### **2. Android Phone Camera (IP Webcam)**
+### 2️⃣ Android Phone Camera (IP Webcam)
 
-1. Install **IP Webcam** app on your phone.
+1. Install the **IP Webcam** app on your phone.
 2. Connect your PC and phone to the **same Wi-Fi network**.
 3. Start IP Webcam → choose **MJPEG / Browser stream**.
 4. Update the URL in `fire_detection.py`:
@@ -87,39 +96,49 @@ python fire_detection.py
 url = "http://<your-phone-ip>:8080/video"
 ```
 
-5. Run the script:
+5. Run the detection script:
 
 ```bash
 python fire_detection.py
 ```
 
-6. Press **`q`** to quit.
+6. Press **`q`** to quit the program.
 
 ---
 
 ## 📥 Download the Trained Model
 
-Download the trained CNN model for real-time fire detection:
-[models.rar](https://github.com/malik8154/RealTime-Fire-Detector/releases/download/v1.0/models.rar)
+The trained CNN model for real-time fire detection can be downloaded here:
+
+[Download models.rar](https://github.com/malik8154/RealTime-Fire-Detector/releases/download/v1.0/models.rar)
 
 > Extract the `.rar` file to get `forest_fire_cnn.h5` before running `fire_detection.py`.
 
 ---
 
-## ⚠️ Notes
+## ⚠️ Notes & Tips
 
-* Any small flame (candle, lighter, fire video) works for testing.
-* No need for an actual forest fire.
-* Ensure good lighting and camera clarity for the best detection.
+* Any small flame (candle, lighter, or fire video) can be used for testing.
+* No need to demonstrate an actual forest fire.
+* Ensure **good lighting** and **camera clarity** for accurate detection.
+* Recommended for **educational, safety simulation, or prototyping purposes**.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
+Contributions are welcome! If you have improvements, optimizations, or bug fixes, feel free to submit a **pull request** or open an **issue**.
 
 ---
 
 ## 📌 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 💡 About
+
+This project demonstrates the power of **computer vision and deep learning** for real-world safety applications. It showcases practical experience with **TensorFlow, Keras, and OpenCV**, as well as deploying models for **real-time live video analysis**.
+
+```
