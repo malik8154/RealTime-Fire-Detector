@@ -41,8 +41,7 @@ RealTime-Fire-Detector/
 
 ## 🎥 Demo
 
-![Fire Detection Demo](images/demo.gif)  
-*Replace this with your own GIF or screenshot of the detection in action.*
+![Fire Detection Demo](images/demo.gif) 
 
 ---
 
