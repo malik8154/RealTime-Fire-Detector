@@ -1,8 +1,3 @@
-Perfect 👍 Here’s your **complete, polished README** with the new **Tech Stack section (with badges)** included.
-
----
-
-```markdown
 # Real-Time Fire Detector 🔥
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
