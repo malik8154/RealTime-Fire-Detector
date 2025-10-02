@@ -41,7 +41,7 @@ RealTime-Fire-Detector/
 
 ## 🎥 Demo
 
-![RealTime-Fire-Detector](images/demo.gif) 
+![RealTime-Fire-Detector](images/demo.gif)
 
 ---
 
