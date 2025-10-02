@@ -1,21 +1,40 @@
+Perfect 👍 Here’s your **complete, polished README** with the new **Tech Stack section (with badges)** included.
+
+---
+
+```markdown
 # Real-Time Fire Detector 🔥
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![TensorFlow](https://img.shields.io/badge/tensorflow-2.12+-orange)
 ![OpenCV](https://img.shields.io/badge/opencv-4.12-green)
+![Keras](https://img.shields.io/badge/keras-2.12+-red)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-A real-time fire detection system using **Convolutional Neural Networks (CNNs)**. The system detects fire instantly from live camera feeds, triggers alerts, and logs fire events automatically.
+A real-time fire detection system using **Convolutional Neural Networks (CNNs)**.  
+The system detects fire instantly from live camera feeds (default: laptop webcam), triggers audible alerts, and logs fire events automatically.
 
 ---
 
 ## 🚀 Key Features
 
 - **Real-Time Detection**: Detects fire instantly from webcam or IP camera feeds.  
-- **Cross-Platform Support**: Works with laptop webcams and Android phone cameras.  
+- **Cross-Platform Support**: Works with laptop webcams (default) and optional Android phone cameras.  
 - **Event Logging**: Automatically logs fire detection events in `fire_alerts.log`.  
-- **Audio Alerts**: Triggers an audible alarm when fire is detected.  
+- **Audio Alerts**: Plays a simple **beep alarm** when fire is detected.  
 - **Lightweight Model**: Trained CNN model optimized for fast inference.
+
+---
+
+## 🖥️ Tech Stack
+
+- ![Python](https://img.shields.io/badge/Python-3.10+-blue) — Core programming language  
+- ![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange) — CNN model training & inference  
+- ![Keras](https://img.shields.io/badge/Keras-API-red) — High-level model building  
+- ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green) — Video capture & image preprocessing  
+- ![NumPy](https://img.shields.io/badge/NumPy-Data%20Arrays-lightgrey) — Numerical operations  
+- ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-yellow) — Plotting training results  
+- ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML%20Tools-orange) — Evaluation metrics  
 
 ---
 
@@ -78,13 +97,21 @@ pip install -r requirements.txt
 
 ## 🚦 How to Use
 
-### 1️⃣ Laptop Webcam
+### 1️⃣ Laptop Webcam (Default)
+
+Simply run:
 
 ```bash
 python fire_detection.py
 ```
 
-### 2️⃣ Android Phone Camera (IP Webcam)
+> The system will automatically use your laptop’s built-in webcam (device index `0`).
+> Fire detection results will appear on screen, and a **beep alert** will sound if fire is detected.
+> Press **`q`** to quit the program.
+
+---
+
+### 2️⃣ Android Phone Camera (Optional, via IP Webcam)
 
 1. Install the **IP Webcam** app on your phone.
 2. Connect your PC and phone to the **same Wi-Fi network**.
@@ -100,8 +127,6 @@ url = "http://<your-phone-ip>:8080/video"
 ```bash
 python fire_detection.py
 ```
-
-6. Press **`q`** to quit the program.
 
 ---
 
@@ -138,4 +163,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 💡 About
 
-This project demonstrates the power of **computer vision and deep learning** for real-world safety applications. It showcases practical experience with **TensorFlow, Keras, and OpenCV**, as well as deploying models for **real-time live video analysis**.
+This project demonstrates the power of **computer vision and deep learning** for real-world safety applications.
+It showcases practical experience with **TensorFlow, Keras, and OpenCV**, as well as deploying models for **real-time live video analysis**.
+Do you also want me to make a **short one-line tagline** (like *“AI-powered real-time fire detection system using CNNs and OpenCV”*) for the top under the title? It looks very professional on GitHub.
+```
