@@ -160,5 +160,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 This project demonstrates the power of **computer vision and deep learning** for real-world safety applications.
 It showcases practical experience with **TensorFlow, Keras, and OpenCV**, as well as deploying models for **real-time live video analysis**.
-Do you also want me to make a **short one-line tagline** (like *“AI-powered real-time fire detection system using CNNs and OpenCV”*) for the top under the title? It looks very professional on GitHub.
 ```
